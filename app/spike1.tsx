@@ -6,7 +6,7 @@ export default function Spike1() {
   return (
     <SafeAreaView style={styles.container}>
       <WebView
-        source={{ uri: "https://apdevstaging.ghost.is/ghost/" }}
+        source={{ uri: "https://activitypub.ghost.io/ghost/" }}
         style={styles.webview}
       />
     </SafeAreaView>
